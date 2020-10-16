@@ -6,10 +6,10 @@ name_list = data["Name"].tolist()
 
 for i in name_list:
     if len(i)>20:
-        font_size = ImageFont.truetype(r"fonts/Cinzel-Bold.otf", 20)
+        font_size = ImageFont.truetype(r"fonts/Aulyars Regular.otf", 20)
         nameloc = (600, 490)
     else:
-        font_size = ImageFont.truetype(r"fonts/Cinzel-Bold.otf", 30)
+        font_size = ImageFont.truetype(r"fonts/Aulyars Regular.otf", 30)
         nameloc = (640, 480)
     im = Image.open('certificate.jpeg')
     d = ImageDraw.Draw(im)
